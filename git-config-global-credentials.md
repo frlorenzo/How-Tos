@@ -24,6 +24,14 @@ git config --global credential.helper \
 ```
 
 
+## Cache Credentials using KDE Wallet
+```
+sudo apt-get install ksshaskpass
+git config --global core.askpass /usr/bin/ksshaskpass
+export GIT_ASKPASS=`which ksshaskpass`
+```
+
+
 ## Cache Credentials in Memory
 ```
 git config --global credential.helper cache
