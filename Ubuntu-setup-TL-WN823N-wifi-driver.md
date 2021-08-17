@@ -32,3 +32,4 @@ sudo dkms uninstall rtl8192eu/1.0 --all
 ## Reference
 - https://github.com/Mange/rtl8192eu-linux-driver
 - https://www.tp-link.com/ph/home-networking/adapter/tl-wn823n/
+- https://www.tp-link.com/ph/support/download/tl-wn823n/
